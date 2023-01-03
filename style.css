@@ -1,8 +1,21 @@
 .header {
     display: flex;
+    background-color: rgba(25, 25, 32, 0.315);
+    flex-direction: column;
+}
+
+.header-top {
+    display: flex;
     justify-content: center;
     align-items: center;
 }
+
+.header-logo {
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+}
+
 .header-content {
     display: flex;
     justify-content: center;
