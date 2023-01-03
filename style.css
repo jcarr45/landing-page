@@ -2,17 +2,24 @@
     display: flex;
     background-color: rgba(25, 25, 32, 0.315);
     flex-direction: column;
+    padding: 10px 150px 150px 150px;
 }
 
 .header-top {
     display: flex;
-    justify-content: center;
+    justify-content: space-around
     align-items: center;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+    color: gray;
 }
 
 .header-logo {
     color: white;
-    font-size: 50px;
+    font-size: 15px;
     font-weight: 700;
 }
 
@@ -22,9 +29,16 @@
     align-items: center;
 }
 
+.header-bold {
+    color: white;
+    font-size: 40px;
+    font-weight: 700px;
+}
+
 .header-button {
     background-color: rgb(43, 128, 255);
     padding: 5px 20px;
     color: white;
     border-radius: 12px;
+    flex-shrink: 0;
 }
