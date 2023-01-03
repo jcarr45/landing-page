@@ -50,8 +50,13 @@ ul {
     font-weight: 900;
 }
 
-.header-button {
-    background-color: rgb(43, 128, 255);
+.top-para {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.top-button {
+    background-color: #3882f6;
     padding: 5px 20px;
     color: white;
     border-radius: 12px;
