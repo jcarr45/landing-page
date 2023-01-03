@@ -40,19 +40,31 @@ ul {
     align-items: center;
 }
 
+
+
+
+
 .top {
     background-color: #1F2937;
+    padding: 100px;
 }
 
-.top-bold {
+.top {
+    display: flex;
+    flex-direction: row;
+}
+
+.top-left, .top-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 900;
-}
-
-.top-para {
-    font-size: 18px;
-    color: #E5E7EB;
 }
 
 .top-button {
