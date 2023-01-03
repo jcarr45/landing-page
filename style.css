@@ -1,33 +1,24 @@
 .header {
-    display: flex;
     background-color: rgba(25, 25, 32, 0.315);
-    flex-direction: column;
     padding: 10px 150px 150px 150px;
 }
 
-.header-top {
-    display: flex;
-    justify-content: space-around
-    align-items: center;
-}
 
 .links {
-    display: flex;
-    justify-content: flex-end;
     color: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .header-logo {
     color: white;
     font-size: 15px;
     font-weight: 700;
+    padding-bottom: 100px;
 }
 
-.header-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
 .header-bold {
     color: white;
