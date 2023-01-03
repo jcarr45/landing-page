@@ -86,3 +86,10 @@ img {
     border-radius: 12px;
     flex-shrink: 0;
 }
+
+
+.middle-header {
+    font-size: 36px;
+    font-weight: 900px;
+    color: #1F2937;
+}
