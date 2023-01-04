@@ -143,4 +143,7 @@ img {
     font-size: 20px;
     font-weight: 700;
     color: #1F2937;
+    display: flex;
+    justify-content: end;
+    margin-right: 175px;
 }
