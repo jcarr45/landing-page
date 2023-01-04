@@ -101,3 +101,16 @@ img {
     justify-content: center;
     align-items: center;
 }
+
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 115px;
+}
