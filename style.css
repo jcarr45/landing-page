@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap'); 
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -130,12 +130,13 @@ img {
 
 .quote-text {
     font-size: 36px;
-    font-style: light italic;
+    font-weight: 200;
+    font-style: italic;
     color: #1F2937;
 }
 
 .author {
     font-size: 20px;
-    font-weight: 700px;
+    font-weight: 700;
     color: #1F2937;
 }
