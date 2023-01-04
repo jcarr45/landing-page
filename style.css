@@ -88,8 +88,16 @@ img {
 }
 
 
+.middle {
+    display: flex;
+    flex-direction: column;
+}
+
 .middle-header {
     font-size: 36px;
     font-weight: 900px;
     color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
