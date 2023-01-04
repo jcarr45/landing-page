@@ -134,6 +134,9 @@ img {
     font-weight: 200;
     font-style: italic;
     color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .author {
