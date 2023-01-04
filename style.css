@@ -127,3 +127,15 @@ img {
     display: flex;
     flex-direction: column;
 }
+
+.quote-text {
+    font-size: 36px;
+    font-style: light italic;
+    color: #1F2937;
+}
+
+.author {
+    font-size: 20px;
+    font-weight: 700px;
+    color: #1F2937;
+}
