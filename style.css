@@ -95,6 +95,7 @@ img {
 .middle {
     display: flex;
     flex-direction: column;
+    margin-bottom: 100px;
 }
 
 .middle-header {
@@ -147,3 +148,5 @@ img {
     justify-content: end;
     margin-right: 175px;
 }
+
+/*BOTTOM BUTTON*/
