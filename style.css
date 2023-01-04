@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap'); 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -166,4 +168,45 @@ img {
     width: 1000px;
     height: 150px;
     border-radius: 12px;
+}
+
+.bottom-left {
+    margin-right: 200px;
+}
+
+.call {
+    font-size: 20px;
+    color: #E5E7EB;
+}
+
+.sign-up {
+    color: #E5E7EB;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.bottom-button {
+    background-color: #3882f6;
+    padding: 5px 20px;
+    color: white;
+    width: 150px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 12px;
+    flex-shrink: 0;
+    font-size: 20px;
+}
+
+
+/*FOOTER*/
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    color: #F9FAF8;
 }
