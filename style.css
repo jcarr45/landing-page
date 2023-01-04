@@ -13,6 +13,8 @@ body {
     background-color: #1F2937;
 }
 
+ /*NAVBAR*/
+
 .navbar {
     display: flex;
 }
@@ -40,6 +42,7 @@ ul {
     align-items: center;
 }
 
+/*TOP*/
 
 .top {
     display: flex;
@@ -87,6 +90,7 @@ img {
     flex-shrink: 0;
 }
 
+/*MIDDLE*/
 
 .middle {
     display: flex;
@@ -113,4 +117,13 @@ img {
     justify-content: center;
     align-items: center;
     gap: 115px;
+    margin-top: -50px;
+}
+
+/*GIANT QUOTE*/
+
+.quote-bg {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
 }
